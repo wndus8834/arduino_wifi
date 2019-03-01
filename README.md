@@ -7,19 +7,19 @@
 
 2. 개발 환경
 
-![image](https://user-images.githubusercontent.com/38427658/53644979-3affd700-3c7b-11e9-8e94-aafc862caf3b.png)
+    ![image](https://user-images.githubusercontent.com/38427658/53644979-3affd700-3c7b-11e9-8e94-aafc862caf3b.png)
 
-아두이노는 wifi 모듈이 내장되어 있는 오렌지 보드와 적외선센서를 사용하였습니다.
-안드로이드 api27 이상 버전을 사용하였고,
-서버와 DB는 웹 호스팅을 통해 php와 mySQL을 연동하여 사용하였고,
-웹은 WIX를 이용해 제작하였습니다.
+    아두이노는 wifi 모듈이 내장되어 있는 오렌지 보드와 적외선센서를 사용하였습니다.
+    안드로이드 api27 이상 버전을 사용하였고,
+    서버와 DB는 웹 호스팅을 통해 php와 mySQL을 연동하여 사용하였고,
+    웹은 WIX를 이용해 제작하였습니다.
 
 3. 시스템 구성도
 
-![image](https://user-images.githubusercontent.com/38427658/53645095-7d291880-3c7b-11e9-87a0-508a8675eabf.png)
+    ![image](https://user-images.githubusercontent.com/38427658/53645095-7d291880-3c7b-11e9-87a0-508a8675eabf.png)
 
     아두이노에 연결된 적외선 초음파 센서가 data를 실시간으로 server에 전송해주고, db에는 어느 구역에 차가 주차되었는지 확인할 수 있습니다.
-그리고 안드로이드는 서버와 연결해 그 data를 받아오는 구성을 가졌습니다.
+    그리고 안드로이드는 서버와 연결해 그 data를 받아오는 구성을 가졌습니다.
 
 4. Arduino
 
